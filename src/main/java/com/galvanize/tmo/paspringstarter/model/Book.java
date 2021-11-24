@@ -5,7 +5,7 @@ public class Book {
     private Long id;
     private String author;
     private String title;
-    private String yearPublished;
+    private int yearPublished;
 
 
 
@@ -21,7 +21,7 @@ public class Book {
      * @param title
      * @param yearPublished
      */
-    public Book(Long id, String author, String title, String yearPublished) {
+    public Book(Long id, String author, String title, int yearPublished) {
         super();
         this.id = id;
         this.author = author;
@@ -88,7 +88,7 @@ public class Book {
     /**
      * @return the yearPublished
      */
-    public String getYearPublished() {
+    public int getYearPublished() {
         return yearPublished;
     }
 
@@ -97,7 +97,7 @@ public class Book {
     /**
      * @param yearPublished the yearPublished to set
      */
-    public void setYearPublished(String yearPublished) {
+    public void setYearPublished(int yearPublished) {
         this.yearPublished = yearPublished;
     }
 
